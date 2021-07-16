@@ -78,7 +78,7 @@ module Discord
     include JSON::Serializable
 
     property id : Snowflake
-    property unavailable : Bool
+    #property unavailable : Bool
   end
 
   struct GuildEmbed
